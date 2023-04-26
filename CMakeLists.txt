@@ -25,6 +25,7 @@ option(UHDM_USE_HOST_GTEST "Use gtest from host system, not third_party/"
 option(UHDM_USE_HOST_CAPNP "Use capnproto from host system, not third_party/"
                            OFF)
 option(UHDM_SYMBOLID_DEBUG_ENABLED "Enable SymbolId debugging" OFF)
+option(UHDM_WITH_PYTHON "Compile Python API" OFF)
 
 include(GNUInstallDirs)
 
