@@ -39,6 +39,10 @@ install(
 	DESTINATION ${CMAKE_INSTALL_PREFIX}/${Python_site_packages}
 )
 install(
+	FILES ${CMAKE_CURRENT_BINARY_DIR}/_py_uhdm.so
+	DESTINATION ${CMAKE_INSTALL_PREFIX}/${Python_site_packages}
+)
+install(
 	TARGETS ${SWIG_MODULE_py_udhm_REAL_NAME} 
 	LIBRARY DESTINATION ${PYTHON_SITE_PACKAGES}
 )
